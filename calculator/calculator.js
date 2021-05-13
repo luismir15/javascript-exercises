@@ -1,17 +1,35 @@
-function add () {
+function add (a, b) {
 	
+	return a + b;
 }
 
-function subtract () {
+function subtract (a, b) {
 	
+	return a - b;
 }
 
-function sum () {
+function sum (array) {
 	
+	let arraySum;
+
+	for (let i; i < array.length; i++) {
+
+		arraySum += array[i];
+	}
+
+	return arraySum;
 }
 
 function multiply () {
 	
+	let arraySum;
+
+	for (let i; i < array.length; i++) {
+
+		arraySum *= array[i];
+	}
+
+	return arraySum;
 }
 
 function power() {
